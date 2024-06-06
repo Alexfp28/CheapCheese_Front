@@ -31,7 +31,7 @@ export default {
         <div class="mb-3">
           <div class="relative mx-auto flex justify-content-center">
             <img :src="`${slotProps.data.imagen}`" :alt="slotProps.data.nombre" class="w-full border-round"
-                 style="max-width: 250px"/>
+                 style="max-width: 250px; max-height:126px; "/>
           </div>
         </div>
         <div class="mb-3 font-medium">
