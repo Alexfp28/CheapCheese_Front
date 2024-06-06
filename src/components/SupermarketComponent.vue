@@ -13,6 +13,7 @@ export default {
     async getSupermercados() {
       let response = await CheapCheeseService.getSupermarkets();
       this.supermercados = response.data;
+      console.log(response.data);
     }
   },
   created() {
@@ -39,7 +40,7 @@ export default {
         <div class="flex justify-content-center align-items-center mx-auto">
           <span>
           <RouterLink to="#about" class="decoration">
-            <Button label="Más Información..." class="ml-2" @click="show"/>
+            <Button label="Más Información..." class="ml-2" />
           </RouterLink>
           </span>
         </div>

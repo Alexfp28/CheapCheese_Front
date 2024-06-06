@@ -24,7 +24,7 @@ export default {
       let response = await CheapCheeseService.getProducts();
       response.data
           .forEach(x => {
-            if (x.precio <= 1.25)
+            if (x.tienda <= 'Carrefour')
               this.productos.push(x);
           })
     }

@@ -26,7 +26,7 @@ export default {
           <h3>Enlaces Útiles</h3>
           <ul>
             <li><a href="/catalog">Catálogo</a></li>
-            <li><a href="/supermaket">Supermercados</a></li>
+            <li><a href="/supermarket">Supermercados</a></li>
             <li><a href="/map">Consultar Ubicaciones</a></li>
             <li><a href="/terms">Términos de Servicio</a></li>
           </ul>

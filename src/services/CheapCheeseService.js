@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const PRODUCTS_URL = "http://localhost:8080/api/v1/products";
-const SUPERMARKETS_URL = "http://localhost:8080/api/v1/supermarkets";
-const USERS_URL = "http://localhost:8080/api/v1/products";
+const PRODUCTS_URL = "http://20.224.64.191:8080/api/v1/products";
+const SUPERMARKETS_URL = "http://20.224.64.191:8080/api/v1/supermarkets";
+const USERS_URL = "http://20.224.64.191:8080/api/v1/users";
 
 class CheapCheeseService {
 
