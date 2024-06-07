@@ -24,7 +24,7 @@ export default {
       let response = await CheapCheeseService.getProducts();
       response.data
           .forEach(x => {
-            if (x.tienda <= 'Carrefour')
+            if (x.tienda === 'Carrefour')
               this.productos.push(x);
           })
     }
@@ -37,7 +37,7 @@ export default {
 
 <template>
   <div class="flex justify-content-center mt-4">
-    <h1>NOVEDADES POR MENOS DE 1.25€</h1>
+    <h1>NOVEDADES DE CARREFOUR</h1>
   </div>
 
   <!--Carousel de los últimos quesos a la venta-->

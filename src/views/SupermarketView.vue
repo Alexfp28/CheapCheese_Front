@@ -13,6 +13,6 @@ export default {
   <main>
     <HeaderComponent/>
     <SupermarketComponent/>
-    <FooterComponent/>
+    <FooterComponent class="mt-8"/>
   </main>
 </template>

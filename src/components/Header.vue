@@ -5,7 +5,8 @@ export default defineComponent({
   name: "HeaderComponent",
   data() {
     return {
-      visible: false
+      visible: false,
+      Filter: null
     }
   },
   methods: {
